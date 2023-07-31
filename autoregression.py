@@ -15,7 +15,8 @@ from matplotlib import pyplot
 from sklearn.metrics import mean_squared_error
 url = 'crowd_change1.csv'
 #df1 = pd.read_csv(url)
-series = read_csv(url, header=0, index_col=0, parse_dates=True, squeeze=True)
+# series = read_csv(url, header=0, index_col=0, parse_dates=True, squeeze=True)
+series = read_csv(url, header=0, index_col=0, parse_dates=True)
 series.head()
 print(series)
 
